@@ -1,0 +1,16 @@
+server:
+    port: 8080
+iuser:
+  name: 张三
+  age: 18
+  address: 广东深圳
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/test
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

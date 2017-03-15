@@ -1,0 +1,6 @@
+server:
+    port: 8081
+iuser:
+  name: 张三
+  age: 18
+  address: 广东深圳
